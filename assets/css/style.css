@@ -1,0 +1,125 @@
+/* siteheader */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+header {
+    height: 50px;
+    background-color: #3161E0;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+#id-header {
+    width: 80%;
+    background-color: #3161E0;    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+
+}
+
+    
+.link{
+    list-style: none;
+	display: flex;
+    justify-content: center;
+	gap:  2rem;
+    color:white;
+
+
+}
+
+.logo{
+    gap: 2rem;
+    margin-right: 20rem;
+    color: white;
+}
+
+
+.menu{
+
+    margin-left: 18rem;
+    color: black;
+    border: 3px solid white;
+    border-radius: 2rem;
+    background-color: white;
+    padding: 5px;
+   
+
+}
+
+
+
+
+/* endheader */
+
+/* sitemain */
+.debug main {
+    background-color: fuchsia;
+    width: 50%;
+    height: 300px;
+    margin: 20px
+}
+
+
+/* firstcontainer */
+.container {
+    background-image: url(../img/jumbo.png);
+    display: flex;
+    justify-content: center;
+
+
+}
+
+/* endpart */
+
+/* container1 */
+.contanier1 {
+    display: flex;
+    background-color: #fff;
+    height: 400px;
+    justify-content: center;
+}
+
+
+
+
+.figlio {
+    background-color: #1e90ff;
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+
+.figlio1 {
+    background-color: #FFC0CB;
+    width: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,59 +1,72 @@
 /* siteheader */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 
+
+
 }
+
+
+
+
+
+
+
 
 header {
     height: 50px;
     background-color: #3161E0;
     display: flex;
     justify-content: center;
-  
+    margin-right: -9rem;
+
+
 
 }
 
 
 #id-header {
     width: 80%;
-    background-color: #3161E0;    
+    background-color: #3161E0;
     margin-top: 10px;
     margin-bottom: 10px;
     display: flex;
 
 }
 
-    
-.link{
+
+.link {
     list-style: none;
-	display: flex;
+    display: flex;
     justify-content: center;
-	gap:  2rem;
-    color:white;
+    gap: 2rem;
+    color: white;
 
 
 }
 
-.logo{
+.logo {
+   width: 300px;
     gap: 2rem;
     margin-right: 20rem;
     color: white;
 }
 
 
-.menu{
+.menu {
 
-    margin-left: 18rem;
+    margin-left: 30rem;
     color: black;
     border: 3px solid white;
     border-radius: 2rem;
     background-color: white;
     padding: 5px;
-   
+
+
 
 }
 
@@ -77,16 +90,19 @@ header {
     justify-content: center;
     background-size: cover;
     height: 25rem;
-    
+    background-position: bottom;
+    margin-right: -9rem;
+
+
 }
 
-.button{
+.button {
     text-align: center;
-  
+
 }
 
 
-#titolo{
+#titolo {
 
     text-align: center;
     color: white;
@@ -97,23 +113,23 @@ header {
 
 
 
-#bottone{
+#bottone {
     background-color: white;
     color: black;
     border: 2px solid white;
     border-radius: 40px;
     padding: 10px;
- 
+
 
 
 
 }
 
 
-#bottone1{
+#bottone1 {
     background-color: black;
     color: white;
-    padding: 10px ;
+    padding: 10px;
     border: 2px solid black;
     border-radius: 40px;
 
@@ -122,7 +138,7 @@ header {
 }
 
 
-#par{
+#par {
     color: white;
     text-align: center;
     padding: 3rem;
@@ -138,6 +154,186 @@ header {
 /* endcontainer */
 
 
+/* 2container */
+
+.container1 {
+    display: flex;
+    background-color: #fff;
+    height: 425px;
+    justify-content: center;
+
+
+}
+
+
+
+
+.figlio0 {
+    background-size: cover;
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: url(../img/item1.svg);
+
+
+
+
+}
+
+
+
+#titolo1 {
+    font-size: 45px;
+
+}
+
+
+
+.par1 {
+
+    font-size: large;
+    margin-top: 20px;
+
+}
+
+
+
+.fg1 {
+
+    background-color: white;
+    width: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+
+
+/* end2container */
+
+
+/* 3container */
+
+.container2 {
+    display: flex;
+    background-color: #D3D3D3;
+    height: 500px;
+    justify-content: center;
+    flex-direction: row-reverse;
+    width: 100rem;
+
+
+}
+
+.figlio {
+
+    background-image: url(../img/item2.svg);
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: right;
+
+}
+
+
+
+
+.par2 {
+    font-size: large;
+    margin-top: 20px;
+
+
+
+
+}
+
+h3 {
+    font-size: xx-large;
+}
+
+
+
+.figlio1 {
+    background-color: #D3D3D3;
+    width: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-top: 10rem;
+
+}
+
+
+
+.fg2 {
+    background-image: url(../img/item3.svg);
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-size: cover;
+
+}
+
+
+.fandom {
+    background-color: white;
+    width: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-top: 5rem;
+}
+
+
+
+
+.container3 {
+    display: flex;
+    height: 1000px;
+    justify-content: center;
+    flex-direction: row-reverse;
+    width: 100rem;
+    background-color: #D3D3D3;
+
+}
+
+
+
+.fg3 {
+    background-image: url(../img/item4-big.svg);
+    width: 60rem;
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+    margin-left: 5rem;
+
+
+}
+
+
+.titolo2 {
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 3rem;
+
+}
+
+.par3 {
+
+    text-align: center;
+    margin-top: 2rem;
+    font-size: large;
+    width: 70rem;
+
+
+}
+
+
+h4 {
+
+    text-align: center;
+    margin-top: 20px;
+}
 
 
 
@@ -145,22 +341,164 @@ header {
 
 
 
+.mac {
+
+
+    margin-left: 30rem;
+    width: 130px;
+    text-align: center;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    background-color: #8EA1E1;
+    padding: 8px;
+    color: white;
+    font-size: small;
+}
+
+
+.stars {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+/* site_footer */
+
+.contanier3 {
+    display: flex;
+    background-color: black;
+    height: 350px;
+    justify-content: space-evenly;
+    width: 100rem
+
+
+
+}
+
+#figlio4 {
+    width: 10%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: black;
+
+
+}
+
+
+#figlio3 {
+    width: 20%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: black;
+   
+}
+
+
+.fig3{
+    color: #7188D8;
+    
+
+}
+
+
+
+#itapng{
+ height: 20px;
+vertical-align: middle;
+
+
+
+}
 
 
 
 
+.ita{
+    margin: auto;
+    width: 230px;
+    margin-top: 20px;
+    font-size: smaller;
+    color: white;
+}
+
+
+.container_logo{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
 
 
 
+.tw{
+    width: 20px;
+    margin-top: 15px;
+}
+
+.prodotto{
+    color:white;
+    margin-top: 10px;
+
+
+}
+
+    
+
+section{
+    margin: 4%;
+
+}
+
+
+.container4 {
+    display: flex;
+    background-color: black;
+    height: 60px;
+    justify-content: center;
+    margin-top: 1px;
+    width: 100rem;
+
+}
+
+
+#figlio5 {
+    width: 50%;
+    background-color: black;
+    margin-top: 15px;
+    
+}
+
+#Registrati{
+    border: 2px solid black;
+    width: 80px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left:  45rem;
+    color: white;
+    background-color: #8EA1E1;
+    padding: 5px;
+    margin-top: -30px;
+    
+    
+ 
+}
+
+svg{
+background-color: white;
+
+}
 
 
 
+#Discord{
+    width: 30px;
+    margin-top: 1px;
+  
+    
 
-
-
-
-
-
+}
 
 
 

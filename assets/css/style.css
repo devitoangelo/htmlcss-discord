@@ -6,14 +6,7 @@
     box-sizing: border-box;
 
 
-
-
 }
-
-
-
-
-
 
 
 
@@ -58,6 +51,8 @@ header {
 
 
 .menu {
+
+    display: inline-block; 
 
     margin-left: 30rem;
     color: black;
@@ -256,7 +251,7 @@ h3 {
 
 
 .figlio1 {
-    background-color: #D3D3D3;
+    background-color: lightgray;
     width: 20%;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -499,6 +494,29 @@ background-color: white;
     
 
 }
+
+.wave1{
+
+    width: 110%;
+   display: flex;
+  
+    
+}
+
+
+.wave_divider{
+    transform: rotate(180deg);
+
+
+
+}
+
+    
+
+
+
+
+
 
 
 
